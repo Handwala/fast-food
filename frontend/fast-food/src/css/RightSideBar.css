@@ -1,0 +1,41 @@
+.balance-section {
+    background-color: #ffe4b2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .balance-section button {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffa500;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-summary ul li {
+    margin: 10px 0;
+  }
+  
+  .order-summary h4 {
+    margin: 20px 0;
+  }
+  
+  .order-summary button  {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  

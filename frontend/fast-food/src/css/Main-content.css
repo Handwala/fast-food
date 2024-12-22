@@ -1,0 +1,109 @@
+.greeting-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .greeting-section input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .discount-banner {
+    margin: 20px 0;
+    background-color: #f3bd0c;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .discount-banner img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .category-section .categories {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .category {
+    background-color: #ffe4b2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .category:hover {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .popular-dishes .dishes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+  }
+  
+  .dish-card {
+    width: 150px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .dish-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .dish-card h4 {
+    margin-top: 10px;
+  }
+  
+  .product-card {
+    width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    color: #ffa500;
+    font-size: 16px;
+  }
+  .product-card button{
+    background-color: #f7df91;
+    border-radius: 10px;
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }

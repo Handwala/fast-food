@@ -1,0 +1,64 @@
+.app-container {
+    display: grid;
+    grid-template-columns: 250px 1fr 250px; /* Fixed widths for sidebars */
+    grid-gap: 10px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for the entire page */
+    height: 100vh; /* Ensure the app container takes the full viewport height */
+}
+
+.sidebar {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Full height for sidebar */
+    border-radius: 10px;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Hide scrollbar for the sidebar */
+.sidebar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Hide scrollbar for Firefox */
+.sidebar {
+    scrollbar-width: none; /* For Firefox */
+}
+
+.main-content {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Maintain the same height */
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling for main content */
+}
+
+/* Hide scrollbar for the main content */
+.main-content::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Hide scrollbar for Firefox */
+.main-content {
+    scrollbar-width: none; /* For Firefox */
+}
+
+.right-sidebar {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Full height for right sidebar */
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Hide scrollbar for the right sidebar */
+.right-sidebar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Hide scrollbar for Firefox */
+.right-sidebar {
+    scrollbar-width: none; /* For Firefox */
+}
